@@ -7,11 +7,6 @@ cask "dolarucoapp" do
   desc "USD currency checker for argentinians living abroad."
   homepage "https://github.com/bacf5/dolaruco-app"
 
-  livecheck do
-    url :url
-    strategy :github_latest
-  end
-
   app "dolaruco-app.app" 
   
 end
